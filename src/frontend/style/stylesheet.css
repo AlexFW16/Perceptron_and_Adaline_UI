@@ -1,0 +1,67 @@
+*{
+    -fx-font-size: 18px;
+}
+
+.root{
+    -fx-background-color: #1F1F1F;
+
+}
+
+.label{
+    -fx-text-fill: #FFFFFF;
+}
+
+
+.text-field{
+    -fx-text-fill: #FFFFFF;
+    -fx-border-color: #999B9D;
+    -fx-background-color: #1F1F1F;
+    -fx-border-style: hidden hidden solid hidden;
+
+    }
+
+.button{
+    -fx-background-color: blue;
+    -fx-text-fill: red;
+}
+
+.list-cell{
+    -fx-height: 100px;
+    -fx-background-color: #0078D7;
+
+}
+
+.progress-bar{
+    -fx-padding: 0;
+}
+
+.progress-bar .track{
+    -fx-background-color: #212F3D;
+}
+
+.progress-bar .bar{
+    -fx-background-color: #E67E22;
+}
+
+.check-box{
+    -fx-text-fill: #FFFFFF;
+}
+
+#exitButton, #backButton{
+    -fx-background-color: #732626;
+    -fx-text-fill: #4d0000;
+    }
+
+#exitButton:hover, #backButton:hover{
+   -fx-background-color: #993333;
+
+   }
+
+#createButton{
+     -fx-background-color: #1F7A1F;
+     -fx-text-fill: #003300;
+}
+
+#createButton:hover{
+   -fx-background-color: #2aa22a;
+}
